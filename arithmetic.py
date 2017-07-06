@@ -22,7 +22,7 @@ def multiply(num1, num2):
 def divide(num1, num2):
     """Divide the first input by the second, returning a floating point."""
 
-    return num1 / num2
+    return float(num1) / float(num2)
 
 
 def square(num1):
@@ -47,3 +47,9 @@ def mod(num1, num2):
     """Return the remainder of num / num2."""
 
     return num1 % num2
+
+
+def add_mult(num1, num2, num3):
+    """Return sum of num1 and num2, multiplied by num3."""
+
+    return (num1 + num2) * num3
